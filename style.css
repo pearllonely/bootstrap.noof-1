@@ -1,0 +1,323 @@
+*{
+    margin:0;
+    border:0;
+}
+.main-img
+{
+
+  height:100vh;
+    background-color:rgb(80, 61, 88);
+    background-image: url('images/1 (1).jpg');
+    background-size: 100%;
+   
+
+  
+}
+
+.nav-item 
+{
+   margin: 0px;
+   color: bisque; 
+   padding: 15px;
+    
+}
+
+.font
+{
+  
+    color: rgb(234, 236, 219);
+    font-size:20px;
+    top:48vh;
+    direction:initial;
+    text-align:center;
+}
+
+
+
+[class*="col-"]
+{
+    box-sizing: border-box;
+    float:right;
+
+}
+
+
+
+
+@media (min-width:600px){
+    .col-sm-1 {width: 8.33%;}
+    .col-sm-2 {width: 16.66%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 33.33%;}
+    .col-sm-5 {width: 41.66%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-7 {width: 58.33%;}
+    .col-sm-8 {width: 66.66%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}    
+}
+
+@media (min-width:768px){
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.33%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+}
+
+@media (min-width:992px){
+    .col-lg-1 {width: 8.33%;}
+    .col-lg-2 {width: 16.66%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-4 {width: 33.33%;}
+    .col-lg-5 {width: 41.66%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-7 {width: 58.33%;}
+    .col-lg-8 {width: 66.66%;}
+    .col-lg-9 {width: 75%;}
+    .col-lg-10 {width: 83.33%;}
+    .col-lg-11 {width: 91.66%;}
+    .col-lg-12 {width: 100%;}
+}
+
+@media (min-width:1200px){
+    .col-xlg-1 {width: 8.33%;}
+    .col-xlg-2 {width: 16.66%;}
+    .col-xlg-3 {width: 25%;}
+    .col-xlg-4 {width: 33.33%;}
+    .col-xlg-5 {width: 41.66%;}
+    .col-xlg-6 {width: 50%;}
+    .col-xlg-7 {width: 58.33%;}
+    .col-xlg-8 {width: 66.66%;}
+    .col-xlg-9 {width: 75%;}
+    .col-xlg-10 {width: 83.33%;}
+    .col-xlg-11 {width: 91.66%;}
+    .col-xlg-12 {width: 100%;}
+}
+
+
+
+li{
+    display : inline;
+    
+    padding: 15px;
+
+    
+}
+
+.social ul{
+    margin-top:50vh;
+    margin-left:100%;
+}
+.social li{
+   
+    display :block
+}
+
+
+h1,h3{
+    text-align: center;
+}
+
+.tital
+{  
+    margin: 70vh 50vw;
+    text-align: center;
+    color: rgb(18, 17, 34);
+    display: block;
+    margin-block-start:1em;
+    margin-block-end: 1em;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    src: url('../fonts/aldhabi.ttf');
+    font-family: aldhabi;
+    font-size:2.5em;
+}
+
+  .tital1
+  {
+    margin: 80vh 50vw;
+    text-align: center;
+    color: rgb(16, 15, 44);
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: center;
+    height: 10px;
+    src: url('../fonts/aldhabi.ttf');
+    font-family: aldhabi;
+    font-size:2.2em;
+    
+  }
+  .coll{
+    margin: 80vh 50vw;
+    text-align: center;
+    color: rgb(16, 15, 44);
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: center;
+    height: 10px;
+    src: url('../fonts/aldhabi.ttf');
+    font-family: aldhabi;
+    font: size 20px;
+  }
+
+    @keyframes  move-img{
+
+
+      form{top:0px ; left: 0px;}
+      to{ top:opx; right: 100px;}
+    }
+  
+  
+   .img
+   {
+    position: relative;
+    border-radius: 50%;
+    float: left;
+  animation: move-img 7s ;
+  animation-duration:inherit;
+   
+   
+   }
+ 
+.imagA
+{
+  
+  height: 250px;
+  background-color:rgba(190, 188, 188, 0.836);
+  opacity: .8;
+  float: right;
+padding: 40px 100px;
+ shape-outside: 30%;
+  display: block;
+
+
+ }
+ 
+  
+.imagB{
+  height: 250px;
+  background-color:rgba(61, 66, 110, 0.849);
+  opacity: .8;
+  float: right;
+padding: 40px 100px;
+ shape-outside: 30%;
+  display: block;
+}
+.imagC{
+  height: 250px;
+  background-color:rgb(234, 238, 175);
+  float: right;
+padding: 40px 100px;
+ shape-outside: 30%;
+  display: block;
+}
+
+.imagD{
+  height: 250px;
+  background-color:rgb(187, 84, 25);
+padding: 40px 100px;
+ shape-outside: 30%;
+  display: block;
+}
+  
+
+
+.imagE{
+  height: 250px;
+  background-color:rgba(98, 209, 25, 0.932);
+  opacity: .8;
+  float: right;
+padding: 40px 100px;
+ shape-outside: 30%;
+  display: block;
+}
+
+.imagF{
+  height: 250px;
+  background-color:rgb(9, 5, 31);
+  opacity: .8;
+  float: right;
+padding: 40px 100px;
+ shape-outside: 30%;
+  display: block;
+}
+
+
+.imagG{
+  height: 250px;
+  background-color:rgb(215, 218, 176);
+  opacity: .8;
+  float: right;
+padding: 40px 100px;
+ shape-outside: 30%;
+  display: block;
+}
+
+.imagH{
+  height: 250px;
+  background-color:rgb(46, 131, 241);
+  opacity: .8;
+  float: right;
+padding: 40px 100px;
+ shape-outside: 30%;
+  display: block;
+}
+
+
+  .form-container {
+    width: 100%;
+    padding: 2%;
+    background-color: #ccc;
+  }
+  .form-container div input, label , textarea {
+    display: block;
+    margin-bottom: 2%;
+  }
+  
+  .form-container input , textarea {
+    border: 5px solid rgb(19, 19, 24);
+    padding: 1%;
+  }
+  
+  .form-container .first-name {
+    float: right;
+    width: 40%;
+  }
+  
+  .form-container .second-name {
+    float: left;
+    width: 40%;
+  }
+  
+  .first-name input, .second-name input{
+    float: right;
+    width: 100%;
+  }
+  
+  .form-container .full-width
+  {
+    clear: both;
+    width: 70%;
+    
+  }
+  
+  .full-width input, textarea {
+    width: 100%;
+  }
+ 
